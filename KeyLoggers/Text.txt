@@ -1,0 +1,3 @@
+Whatever you Type in this software it stores as a log.
+
+
